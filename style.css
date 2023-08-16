@@ -51,6 +51,7 @@
     font-size: 25px;
     padding: 6px 13px;
     font-family: 'Harry Potter', sans-serif;
+    transition: .5s;
 }
 
 .navbar ul li a.active,
@@ -62,7 +63,7 @@
 .center h1, h2 {
     color: wheat;
     margin: 100px;
-    width: 900px;
+    width: 1000px;
     font-size: xx-large;
     font-family: 'Harry Potter', sans-serif;
     text-align: center;
@@ -92,4 +93,9 @@
     cursor: pointer;
     outline: none;
     border-radius: 25px;
+}
+
+.buttons button:hover {
+    background: #fff;
+    transition: 1s;
 }
